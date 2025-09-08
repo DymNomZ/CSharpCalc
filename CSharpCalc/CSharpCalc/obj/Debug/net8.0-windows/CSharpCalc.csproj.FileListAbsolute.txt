@@ -1,0 +1,17 @@
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\bin\Debug\net8.0-windows\CSharpCalc.exe
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\bin\Debug\net8.0-windows\CSharpCalc.deps.json
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\bin\Debug\net8.0-windows\CSharpCalc.runtimeconfig.json
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\bin\Debug\net8.0-windows\CSharpCalc.dll
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\bin\Debug\net8.0-windows\CSharpCalc.pdb
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.Calc.resources
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.csproj.GenerateResource.cache
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.AssemblyInfoInputs.cache
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.AssemblyInfo.cs
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.csproj.CoreCompileInputs.cache
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.sourcelink.json
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.dll
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\refint\CSharpCalc.dll
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.pdb
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\CSharpCalc.genruntimeconfig.cache
+C:\Users\dymno\Desktop\CSharpCalc\CSharpCalc\CSharpCalc\obj\Debug\net8.0-windows\ref\CSharpCalc.dll

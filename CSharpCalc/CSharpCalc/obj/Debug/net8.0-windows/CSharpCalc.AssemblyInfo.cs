@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f31dc77bf5a8e727b30463c8aa69ab72a8208f0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -55,11 +55,13 @@
             // 
             Result.AutoSize = true;
             Result.Font = new Font("Noto Sans JP", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Result.Location = new Point(318, 55);
+            Result.Location = new Point(12, 57);
             Result.Name = "Result";
+            Result.RightToLeft = RightToLeft.No;
             Result.Size = new Size(72, 87);
             Result.TabIndex = 0;
             Result.Text = "0";
+            Result.TextAlign = ContentAlignment.MiddleCenter;
             Result.Click += label1_Click;
             // 
             // DelButton
@@ -73,6 +75,7 @@
             DelButton.TabIndex = 1;
             DelButton.Text = "Del";
             DelButton.UseVisualStyleBackColor = false;
+            DelButton.Click += Delete_Char;
             // 
             // CButton
             // 
@@ -85,6 +88,7 @@
             CButton.TabIndex = 2;
             CButton.Text = "C";
             CButton.UseVisualStyleBackColor = false;
+            CButton.Click += Clear_Result;
             // 
             // SignButton
             // 
@@ -97,6 +101,7 @@
             SignButton.TabIndex = 3;
             SignButton.Text = "+/-";
             SignButton.UseVisualStyleBackColor = false;
+            SignButton.Click += SignChangeButton_Click;
             // 
             // DivideButton
             // 
@@ -109,6 +114,7 @@
             DivideButton.TabIndex = 4;
             DivideButton.Text = "/";
             DivideButton.UseVisualStyleBackColor = false;
+            DivideButton.Click += OperatorButton_Click;
             // 
             // NineButton
             // 
@@ -121,6 +127,7 @@
             NineButton.TabIndex = 7;
             NineButton.Text = "9";
             NineButton.UseVisualStyleBackColor = false;
+            NineButton.Click += Button_Click;
             // 
             // EightButton
             // 
@@ -133,6 +140,7 @@
             EightButton.TabIndex = 6;
             EightButton.Text = "8";
             EightButton.UseVisualStyleBackColor = false;
+            EightButton.Click += Button_Click;
             // 
             // SevenButton
             // 
@@ -145,6 +153,7 @@
             SevenButton.TabIndex = 5;
             SevenButton.Text = "7";
             SevenButton.UseVisualStyleBackColor = false;
+            SevenButton.Click += Button_Click;
             // 
             // SixButton
             // 
@@ -157,6 +166,7 @@
             SixButton.TabIndex = 11;
             SixButton.Text = "6";
             SixButton.UseVisualStyleBackColor = false;
+            SixButton.Click += Button_Click;
             // 
             // FiveButton
             // 
@@ -169,6 +179,7 @@
             FiveButton.TabIndex = 10;
             FiveButton.Text = "5";
             FiveButton.UseVisualStyleBackColor = false;
+            FiveButton.Click += Button_Click;
             // 
             // FourButton
             // 
@@ -181,6 +192,7 @@
             FourButton.TabIndex = 9;
             FourButton.Text = "4";
             FourButton.UseVisualStyleBackColor = false;
+            FourButton.Click += Button_Click;
             // 
             // ThreeButton
             // 
@@ -193,6 +205,7 @@
             ThreeButton.TabIndex = 15;
             ThreeButton.Text = "3";
             ThreeButton.UseVisualStyleBackColor = false;
+            ThreeButton.Click += Button_Click;
             // 
             // TwoButton
             // 
@@ -205,6 +218,7 @@
             TwoButton.TabIndex = 14;
             TwoButton.Text = "2";
             TwoButton.UseVisualStyleBackColor = false;
+            TwoButton.Click += Button_Click;
             // 
             // OneButton
             // 
@@ -217,6 +231,7 @@
             OneButton.TabIndex = 13;
             OneButton.Text = "1";
             OneButton.UseVisualStyleBackColor = false;
+            OneButton.Click += Button_Click;
             // 
             // DecimalButton
             // 
@@ -229,6 +244,7 @@
             DecimalButton.TabIndex = 19;
             DecimalButton.Text = ".";
             DecimalButton.UseVisualStyleBackColor = false;
+            DecimalButton.Click += Button_Click;
             // 
             // ZeroButton
             // 
@@ -241,6 +257,7 @@
             ZeroButton.TabIndex = 18;
             ZeroButton.Text = "0";
             ZeroButton.UseVisualStyleBackColor = false;
+            ZeroButton.Click += Button_Click;
             // 
             // ModuloButton
             // 
@@ -253,6 +270,7 @@
             ModuloButton.TabIndex = 17;
             ModuloButton.Text = "%";
             ModuloButton.UseVisualStyleBackColor = false;
+            ModuloButton.Click += PercentageButton_Click;
             // 
             // MultiplyButton
             // 
@@ -265,6 +283,7 @@
             MultiplyButton.TabIndex = 20;
             MultiplyButton.Text = "X";
             MultiplyButton.UseVisualStyleBackColor = false;
+            MultiplyButton.Click += OperatorButton_Click;
             // 
             // SubtractButton
             // 
@@ -277,6 +296,7 @@
             SubtractButton.TabIndex = 21;
             SubtractButton.Text = "-";
             SubtractButton.UseVisualStyleBackColor = false;
+            SubtractButton.Click += OperatorButton_Click;
             // 
             // AddButton
             // 
@@ -290,6 +310,7 @@
             AddButton.TabIndex = 22;
             AddButton.Text = "+";
             AddButton.UseVisualStyleBackColor = false;
+            AddButton.Click += OperatorButton_Click;
             // 
             // EqualButton
             // 
@@ -302,6 +323,7 @@
             EqualButton.TabIndex = 23;
             EqualButton.Text = "=";
             EqualButton.UseVisualStyleBackColor = false;
+            EqualButton.Click += EqualsButton_Click;
             // 
             // Calc
             // 
